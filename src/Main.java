@@ -3,16 +3,16 @@ public class Main {
 
         /*Operators*/
 
-//
-//        exercise1(23,45);
+
+//        Operators.exercise1(23,45);
 //        System.out.println();
-//        exercise2();
+//        Operators.exercise2();
 //        System.out.println();
-//        exercise3();
+//        Operators.exercise3();
 //        System.out.println();
-//        exercise4(3,5);
+//        Operators.exercise4(3,5);
 //        System.out.println();
-//        exercise5(75,37,48);
+//        Operators.exercise5(75,37,48);
 
         /*Conditional*/
 
@@ -21,7 +21,6 @@ public class Main {
 
         //exercise 2
 //        Conditional.checkSqr();
-
 
         //exercise 3
 //        Conditional.whosBig();
@@ -36,10 +35,24 @@ public class Main {
 //        Conditional.sameName();
 
         //exercise 7
-        Conditional.checkFail();
+//        Conditional.checkFail();
 
         //exercise 8
 //        Conditional.checkGrade();
 
+
+        /*Iterations*/
+
+
+//        Iteration.forLoop();
+
+//        Iteration.whileLoop();
+
+//        Iteration.doWhile();
+
+        Iteration.forEach();
+
+
     }
+
 }

@@ -32,14 +32,16 @@ public class Conditional {
         String passwordSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%";
         char[] password = new char[length];
         for (int i = 0; i < length; i++) {
-            int rand = (int) (Math.random() * passwordSet.length());
-            password[i] = passwordSet.charAt(rand);
+            int random = (int) (Math.random() * passwordSet.length());
+//            System.out.println(random);
+            password[i] = passwordSet.charAt(random);
+//            System.out.println(i);
         }
         return new String(password);
     }
 
     public static void checkPin(){
-        String random = generateRandom(7);
+        String random = generateRandom(10);
         System.out.println("Given pin :"+random);
         System.out.print("Enter the above pin :");
         String pin = scanner.nextLine();
@@ -80,10 +82,15 @@ public class Conditional {
         }
 
         System.out.println();
+//        System.out.println(subjects.get(2));
 
-        for (int i = 0; i < subjects.toArray().length; i++) {
+//        for (int i = 0; i < subjects.toArray().length; i++) {
+//
+//            System.out.println(subjects.get(i) >= 60 ? "Pass" : "Fail");
+//        }
 
-            System.out.println(subjects.get(i) >= 60 ? "Pass" : "Fail");
+        for (int sub: subjects) {
+            System.out.println(sub + 1);
         }
 
     }
